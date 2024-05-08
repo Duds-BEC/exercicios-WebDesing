@@ -1,0 +1,46 @@
+/*Exercício 6*/
+.horizontal-menu {
+    background-color: #eee;
+}
+
+    .horizontal-menu a {
+        background-color: #eee;
+        color: black;
+        display: inline-block;
+        text-align:center;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+        .horizontal-menu a:hover {
+            background-color: #ccc;
+        }
+
+
+/*Exercício 7*/
+.submenu {
+    float: left;
+    overflow: hidden;
+}
+
+.submenu .submenubtn {
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.submenu-conteudo {
+    display: none;
+    position:absolute;
+    left: 0;
+    background-color: #eee;
+    width: 100%;
+}
+
+.submenu:hover .submenu-conteudo {
+    display:block;
+}
